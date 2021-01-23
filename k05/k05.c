@@ -127,7 +127,7 @@ while(StackIsEmpty()==FALSE)
 
     StackPush(i);    
           }
-          }　
+          }
           }
           }
 printf("Stack:visited={");
