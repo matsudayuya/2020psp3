@@ -117,7 +117,7 @@ int AdjacencyMatrix[MAX_STATIONS][MAX_STATIONS] = {
 ## 出力結果
 
 ```
-Stack:visited={1,1,1,1,1,1,1,1,}
+Stack:visited={1,1,1,1,1,1,1,1,}　
 Queue:visited={1,1,1,1,1,1,1,1,}Time Required: 8
 ```
 
