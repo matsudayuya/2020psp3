@@ -97,13 +97,28 @@ int AdjacencyMatrix[MAX_STATIONS][MAX_STATIONS] = {
 - 幅優先探索のルート表示(10点)
 
 ## ソースコードの説明
+111~114 visited[]を初期化
 
-
+115　Stack　を初期化
+116　Stack　にstartの値を入れる
+117　Stack　が空になるまで続ける
+119　val　にStackの一番上の値を入れる
+120～128　visited[val]が０である場合1に変えvalの場所からいれる場所をStackに入れる
+132～137　printfで表示する内容をかく
+208～211　visited[]を初期化
+212　Queseを初期化
+213　Queseにstartの値を入れる
+214　Queseが空になるまで続ける
+216　valにQueseの一番端の最も古い値を入れる
+217～225　visited[val]が0である場合、1に変え、valの場所から入れる場所をQueseに入れる
+229～234　printfで表示する内容を書く
+　
 
 ## 出力結果
 
 ```
-
+Stack:visited={1,1,1,1,1,1,1,1,}
+Queue:visited={1,1,1,1,1,1,1,1,}Time Required: 8
 ```
 
 ## 修正履歴
